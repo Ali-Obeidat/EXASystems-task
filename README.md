@@ -4,4 +4,4 @@
 3- run (composer install) in your terminal.  
 4- run (php artisan key:generat) in your terminal.  
 5- run (php artisan migrate) in your terminal.  
-6- run (php artisan db:seed) in your terminal ##twice.  
+6- run (php artisan db:seed) in your terminal **twice**.  
