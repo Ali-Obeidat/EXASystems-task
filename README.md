@@ -1,4 +1,4 @@
-##To run the app you need to do the following:  
+## To run the app you need to do the following:  
 1- create database with name (exasystems).  
 2- create .env file and copy what inside in .env.example to .env.  
 3- run (composer install) in your terminal.  
