@@ -109,9 +109,9 @@
                 </div>
                 <div class="btns">
                     <!-- <button onclick="checkDateValue()"  type="button" class="btn btn-primary">Generate</button> -->
-                    <button   type="submit" class="btn btn-primary">Generate</button>
+                    <button   type="submit" class="btn btn-primary Generate">Generate</button>
                     @if(!empty($data))
-                    <button onclick="exportData()" type="button" class="btn btn-primary">Export</button>
+                    <button onclick="exportData()" type="button" class="btn btn-primary Export">Export</button>
                     @endif
                 </div>
                 </form>

@@ -46,6 +46,15 @@
     margin: auto 0;
     border-radius: 10px;
 }
+.filter .Generate{
+    background-color: #2a4872 !important;
+    border-color: #777e89;
+
+}
+.filter .Export{
+    background-color: #d36e17;
+    border-color: #777e89;
+}
 .date select{
     border-radius: 20px;
     width: 90%;
