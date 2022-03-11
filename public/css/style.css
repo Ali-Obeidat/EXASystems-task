@@ -1,0 +1,56 @@
+.Left_Side{
+    background-color: rgb(118, 39, 192);
+    height: 100vh;
+}
+
+
+.row{
+    padding-top: 20px;
+}
+.nav{
+    padding: 20px;
+}
+.nav a{
+   color: white;
+}
+.nav a::hover{
+   color: rgb(184, 184, 184);
+}
+.date{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+
+}
+.date label{
+    margin: auto;
+    margin-right: 10px;
+
+}
+.filter form{
+    display: flex;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.filter .btns{
+    margin-left: 5px;
+    display: flex;
+    width: 30%;
+        justify-content: space-between;
+}
+.filter button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin: auto 0;
+    border-radius: 10px;
+}
+.date select{
+    border-radius: 20px;
+    width: 90%;
+}
+.data_table{
+    margin-top: 10px;
+    margin-left: 7px;
+}
