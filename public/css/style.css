@@ -5,7 +5,21 @@
 
 
 .row{
-    padding-top: 20px;
+    background-color: #dfdfdf;
+    padding-top: 45px;
+}
+.container{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 1px solid rgb(136, 132, 132);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #959595;
 }
 .nav{
     padding: 20px;

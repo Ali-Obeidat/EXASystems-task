@@ -17,6 +17,9 @@
 </head>
 
 <body>
+<div class="container">
+  <h1>Header</h1>
+</div>
     <div class="row">
         <div class="col-2 Left_Side">
             <ul class="nav flex-column">
@@ -145,8 +148,17 @@
                 </table>
             </div>
         </div>
+        <div class="row ">
+    <div class="col-12 footer">
+    <h2>footer</h2>  
+    </div>
+ 
+  </div>
 
     </div>
+    
+ 
+
 </body>
 <script src="{{asset('js/main.js')}}"></script>
 
