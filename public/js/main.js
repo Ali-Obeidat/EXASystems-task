@@ -1,15 +1,22 @@
 
 function checkDateValue(){
-    var from = document.getElementById('from').value;
-    var to = document.getElementById('to').value;
-    var day = document.getElementById('day').value;
+    // var from = document.getElementById('from').value;
+    // var to = document.getElementById('to').value;
+    // // var myDate = "26-02-2012";
+    //     myFrom = from.split("-");
+    //     var newFrom = new Date( myFrom[0], myFrom[1] - 1, myFrom[2]);
+    //     myTo = to.split("-");
+    //     var newTo = new Date( myTo[0], myTo[1] - 1, myTo[2]);
+    //     console.log(newFrom.getTime());
+    //     console.log(newTo.getTime());
+    //     console.log(from);
+    // var day = document.getElementById('day').value;
 
-    // var from = new Date(document.getElementById("from").value);
-// var timestamp = from.getTime();
-    // console.log(timestamp);
-    console.log(new Date(to).getTime());
-    console.log(from);
-    // window.location=`/api/least-ordered-products-per-day?from=${new Date(from).getTime()}&to=${new Date(to).getTime()}&day=${day}`
+    // var myDate = "26-02-2012";
+    // myDate = myDate.split("-");
+    // var newDate = new Date( myDate[2], myDate[1] - 1, myDate[0]);
+    // console.log(newDate.getTime());
+    // window.location=`/api/least-ordered-products-per-day?from=${newFrom.getTime()}&to=${newTo.getTime()}&day=${day}`
   }
 
 

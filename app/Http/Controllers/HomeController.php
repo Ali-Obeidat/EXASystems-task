@@ -29,15 +29,11 @@ class HomeController extends Controller
         $from = $request->input('from');
         // return $from;
         $to = $request->input('to');
-     $t=  date('Y-m-d', strtotime('now'));
+    //  $t=  date('Y-m-d', strtotime('now'));
     //   return $timestamp = strtotime($t);
         $day = $request->input('day');
 
-        // return Carbon::parse( $from)->format('l');
-        // $orders = Order::with('products')->
-        
-        // whereBetween('created_at', [$from, $to])
-        // ->get();
+       
         
         $orders=  DB::table('orders')
         ->join('order_items', 'orders.id', '=', 'order_items.order_id')

@@ -111,7 +111,7 @@
                     </select>
                 </div>
                 <div class="btns">
-                    <!-- <button onclick="checkDateValue()"  type="button" class="btn btn-primary">Generate</button> -->
+                    <!-- <button onclick="checkDateValue()"  type="button" class="btn btn-primary Generate">Generate</button> -->
                     <button   type="submit" class="btn btn-primary Generate">Generate</button>
                     @if(!empty($data))
                     <button onclick="exportData()" type="button" class="btn btn-primary Export">Export</button>
@@ -142,7 +142,10 @@
                             <td>{{$order->merchant_name}}</td>
                         </tr>
                     @endforeach
-                    
+                    @else
+                    <tr>
+                        <td> <h2>No data</h2></td>
+                    </tr>
                     @endif
                     </tbody>
                 </table>
